@@ -1,0 +1,13 @@
+# Nintendo Switch build artifacts
+build/
+*.nro
+*.nacp
+*.elf
+*.map
+
+# Editor / OS
+.VSCode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
