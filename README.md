@@ -47,7 +47,7 @@ Built upon the cross-platform decompilation engine [GensokyoClub/th06](https://g
 ### 2. Enabling Background Music (BGM)
 Because Horizon OS lacks a system MIDI synthesizer, Touhou 6 plays background music on the Switch via ZUN's official WAV music mode:
 1. Locate or download the standard *Touhou 6 EoSD WAV BGM / Lossless Soundtrack Pack*.
-2. Create a folder named `bgm` inside your game directory (`sd:/switch/touhou6/bgm/`).
+2. Create a folder named `bgm` inside your game directory (`sd:/touhou6/bgm/`).
 3. Place all soundtrack WAV files (`th06_01.wav` through `th06_17.wav`) along with their loop point definition files (`*.pos`) inside `bgm/`.
 4. Launch the game. The engine will automatically detect `bgm/th06_01.wav`, configure `musicMode` to WAV, and play full soundtrack audio. *(If needed, navigate to Options -> BGM inside the game menu and set it to **WAV**).*
 
