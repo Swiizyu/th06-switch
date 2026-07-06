@@ -29,10 +29,10 @@ Built upon the cross-platform decompilation engine [GensokyoClub/th06](https://g
 ### 1. SD Card File Structure
 1. Ensure your Nintendo Switch is running custom firmware (Atmosphère CFW).
 2. Download the latest `touhou6.nro` from the [Releases](../../releases) tab (or build from source).
-3. Create a folder named `sd:/switch/touhou6/` on your SD card and copy `touhou6.nro` into it.
+3. Create a folder named `sd:/touhou6/` on your SD card and copy `touhou6.nro` into it.
 4. Copy the data archives from your legitimate Touhou 6 PC folder directly into the same directory:
    ```text
-   sd:/switch/touhou6/
+   sd:/touhou6/
        ├── touhou6.nro       # Nintendo Switch homebrew executable
        ├── CM.DAT            # Game data (or 紅魔郷CM.DAT)
        ├── ED.DAT            # Endings data (or 紅魔郷ED.DAT)
